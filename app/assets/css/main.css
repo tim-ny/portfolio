@@ -165,11 +165,12 @@ p { max-width: 62ch; }
   .mbar {
     display: flex; position: fixed; inset: 0 0 auto; z-index: 50; gap: .2rem;
     overflow-x: auto; padding: .7rem var(--pad);
-    background: color-mix(in srgb, var(--bg) 72%, transparent); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
-    border-bottom: 1px solid var(--edge); scrollbar-width: none;
+    background: var(--bg); border-bottom: 1px solid var(--edge); scrollbar-width: none;
   }
   .mbar a { padding: .3rem .8rem; border-radius: 999px; font-size: .9rem; white-space: nowrap; width: fit-content; }
-  .mbar a.on { background: var(--head); color: var(--on-accent); }
+  /* keep the ambient circles fixed on mobile so they don't glitch while scrolling */
+  .ambient i { transform: none !important; }
+  .mbar a.on { color: var(--accent); }
   main { padding-top: 2rem; }
 }
 @media (max-width: 600px) {
