@@ -22,7 +22,7 @@ const lastName = computed(() => site.value?.name?.split(' ').slice(1).join(' ') 
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div class="cta-row">
-        <a class="btn" href="/resume.pdf" download>
+        <a class="btn" href="/resume.pdf" download="Tim_Resume.pdf">
           <Icon name="download" /> Resume
         </a>
         <button type="button" class="theme-toggle" :aria-label="`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`" @click="toggle">
