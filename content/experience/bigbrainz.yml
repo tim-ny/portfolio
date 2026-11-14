@@ -1,0 +1,9 @@
+role: Full Stack Developer
+company: Big Brainz Solutions, Eldoret
+period: Jan – Sep 2023
+bullets:
+  - Built DigiGrade in Flutter so teachers can grade exams and track students' daily routines.
+  - Used WordPress and SEO work to bring clients organic traffic.
+  - Set up Git workflows to keep the codebase tidy.
+tags: [Flutter, WordPress, Git]
+order: 3

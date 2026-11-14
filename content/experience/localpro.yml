@@ -1,0 +1,9 @@
+role: Lead Developer
+company: TheLocalPro, UK
+period: Oct 2023 – May 2025
+bullets:
+  - Led LocalPro, a Nuxt and Laravel platform connecting local service providers with customers.
+  - Tuned Nuxt components and SQL queries for a 25% gain in responsiveness.
+  - Improved SEO and raised crawler readability by 10%.
+tags: [Nuxt, Laravel, SQL, SEO]
+order: 2

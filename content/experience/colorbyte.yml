@@ -1,0 +1,9 @@
+role: Junior Web Developer
+company: Colorbyte, Nairobi
+period: Jan 2020 – Dec 2022
+bullets:
+  - Built a responsive client portfolio site in Vue.js, designed in Figma.
+  - Cut page load time by 20% with image optimization and lazy loading.
+  - Ran social media accounts to build credibility with new clients.
+tags: [Vue, Figma, Adobe Suite]
+order: 4

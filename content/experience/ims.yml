@@ -1,0 +1,11 @@
+role: Full Stack Developer
+company: Interactive Media Services
+period: Oct 2025 – now
+location: Nairobi, Kenya
+bullets:
+  - Build and maintain promotion platforms for brands running campaigns across Kenya.
+  - Improved throughput of the bulk SMS system to telco carriers with minimal latency.
+  - Analyse campaign reports so clients see what actually worked.
+  - Design databases and architectures for client and in-house projects.
+tags: [SQL, SMS, Data analysis]
+order: 1
