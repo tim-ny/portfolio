@@ -1,6 +1,6 @@
 # Portfolio
 
-A content-driven portfolio built with [Nuxt 4](https://nuxt.com), [Nuxt Content](https://content.nuxt.com) and [Tailwind CSS v4](https://tailwindcss.com), styled to match the original static design. Hosted on Cloudflare Pages.
+A content-driven portfolio built with [Nuxt 4](https://nuxt.com), [Nuxt Content](https://content.nuxt.com) and [Tailwind CSS v4](https://tailwindcss.com), styled to match the original static design. Hosted on Cloudflare Workers.
 
 ## Editing content
 
@@ -38,14 +38,15 @@ npm run dev        # http://localhost:3000
 
 ```bash
 npm run generate   # outputs .output/public
+npm run deploy     # deploys to Cloudflare Workers
 ```
 
-## Deploy to Cloudflare Pages
+## Deploy to Cloudflare Workers
 
 1. Push the repository.
-2. Create a Pages project from the repo.
-3. Build command: `npm run generate`
-4. Build output directory: `.output/public`
+2. Authenticate locally with `npx wrangler login`.
+3. Build and deploy with `npm run deploy`.
+4. The custom domain `timny.dev` is bound via `wrangler.toml`.
 5. (Optional) set `NUXT_PUBLIC_SITE_URL`.
 
 ## Best practices followed
@@ -54,4 +55,4 @@ npm run generate   # outputs .output/public
 - Data fetching centralized in composables.
 - Small, single-purpose components; inline icon set.
 - Tailwind v4 tokens + custom CSS, theme variables as single source of truth.
-- Static generation for Cloudflare Pages.
+- Static generation for Cloudflare Workers.

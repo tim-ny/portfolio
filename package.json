@@ -9,8 +9,8 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt generate && wrangler pages dev .output/public",
-    "deploy": "nuxt generate && wrangler pages deploy .output/public"
+    "preview": "nuxt generate && wrangler dev",
+    "deploy": "nuxt generate && wrangler deploy"
   },
   "dependencies": {
     "@nuxt/content": "^3.16.2",

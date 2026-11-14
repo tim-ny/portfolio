@@ -1,3 +1,13 @@
 name = "portfolio"
-pages_build_output_dir = ".output/public"
+account_id = "c60302618225f434d3cf306055facc92"
 compatibility_date = "2026-11-14"
+
+workers_dev = true
+preview_urls = true
+
+[assets]
+directory = ".output/public"
+
+[[routes]]
+pattern = "timny.dev"
+custom_domain = true
