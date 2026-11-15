@@ -161,7 +161,8 @@ p { max-width: 62ch; }
   .layout { grid-template-columns: 1fr; gap: 0; }
   aside { position: static; height: auto; padding: 5.5rem 0 1rem; display: block; }
   .nav { display: none; }
-  .social { margin-top: 1.6rem; }
+  .social { gap: 2rem; margin-top: 1.6rem; }
+  .social a .icon { font-size: 1.2rem; }
   .mbar {
     display: flex; position: fixed; inset: 0 0 auto; z-index: 50; gap: .2rem;
     overflow-x: auto; padding: .7rem var(--pad);

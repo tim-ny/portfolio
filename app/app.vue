@@ -25,7 +25,7 @@ useHead({
     {
       property: 'og:description',
       content:
-        'Seven years from campus help desk to country-wide campaign platforms.',
+        'Full stack developer building campaign platforms, web apps, and mobile apps that stay fast under load.',
     },
     { property: 'og:url', content: siteUrl + '/' },
     { property: 'og:image', content: siteUrl + '/og-image.png' },
@@ -40,7 +40,7 @@ useHead({
     {
       name: 'twitter:description',
       content:
-        'Seven years from campus help desk to country-wide campaign platforms.',
+        'Full stack developer building campaign platforms, web apps, and mobile apps that stay fast under load.',
     },
     { name: 'twitter:image', content: siteUrl + '/og-image.png' },
   ],
