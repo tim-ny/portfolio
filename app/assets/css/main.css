@@ -179,7 +179,7 @@ p { max-width: 62ch; }
   .items { --ip: .8rem; }
   .story .item::before { top: calc(1.1rem + .7rem - 6px); }
   .project-card { flex-direction: column; align-items: flex-start; }
-  .project-image { width: 100%; height: 180px; }
+  .project-image { width: 100%; height: 180px; aspect-ratio: 16 / 9; }
 }
 .reveal { opacity: 1; transform: none; }
 body.scrolled .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
@@ -209,7 +209,8 @@ body.loaded .layout > main {
 
 .project-card { display: flex; align-items: center; gap: 1.5rem; grid-template-columns: none; }
 .project-text { flex: 1; min-width: 0; }
-.project-image { width: 200px; height: 140px; object-fit: cover; border-radius: 8px; flex-shrink: 0; border: 1px solid var(--edge); }
+.project-image { width: 200px; height: 140px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; flex-shrink: 0; border: 1px solid var(--edge); opacity: 0; transition: opacity 0.3s ease; }
+.project-image.loaded, .project-image.nuxt-img-ready, .project-image.nuxt-img-loaded { opacity: 1; }
 
 /* prose (used by about/standalone pages) */
 .prose { max-width: 68ch; }

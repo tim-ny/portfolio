@@ -129,7 +129,15 @@ useHead(() => ({
               :target="p.url ? '_blank' : undefined"
               :rel="p.url ? 'noopener' : undefined"
             >
-              <img :src="p.image || '/project-placeholder.svg'" :alt="p.title" class="project-image" loading="lazy" />
+              <NuxtImg
+                :src="p.image || '/project-placeholder.svg'"
+                :alt="p.title"
+                class="project-image"
+                loading="lazy"
+                format="webp"
+                quality="75"
+                sizes="(max-width: 600px) 100vw, 50vw"
+              />
               <div class="project-text">
                 <h3>
                   {{ p.title }} <span class="arrow">↗</span>
