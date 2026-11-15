@@ -28,7 +28,7 @@ useHead({
         'Full stack developer building campaign platforms, web apps, and mobile apps that stay fast under load.',
     },
     { property: 'og:url', content: siteUrl + '/' },
-    { property: 'og:image', content: siteUrl + '/og/og-default.png' },
+    { property: 'og:image', content: siteUrl + '/og/cartoon.avif' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
     { property: 'og:image:alt', content: 'Timothy Nyambane logo' },
@@ -42,7 +42,7 @@ useHead({
       content:
         'Full stack developer building campaign platforms, web apps, and mobile apps that stay fast under load.',
     },
-    { name: 'twitter:image', content: siteUrl + '/og/twitter-card-light.png' },
+    { name: 'twitter:image', content: siteUrl + '/og/cartoon.avif' },
     { name: 'theme-color', content: '#ffffff', media: '(prefers-color-scheme: light)' },
     { name: 'theme-color', content: '#001840', media: '(prefers-color-scheme: dark)' },
   ],
